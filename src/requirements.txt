@@ -1,1 +1,4 @@
 argparse
+yt_dlp
+requests
+mpv
