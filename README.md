@@ -6,7 +6,7 @@ Shadow-Beats-CLI is a free music application that allows you to play music via a
 
 ### Base Flags (CLI Usage)
 
-Run the CLI with `shadow-beats-cli` followed by these flags:
+Run the CLI with `sbeats` followed by these flags:
 
 1.  `-s` or `--search <search_term>`
     * Searches YouTube using the provided string and plays the first result.
@@ -117,25 +117,25 @@ Once the CLI is running, you can use these commands:
 * Search and play a song:
 
     ```bash
-    shadow-beats-cli -s "khalasi"
+    sbeats -s "khalasi"
     ```
 
 * Play a playlist with video:
 
     ```bash
-    shadow-beats-cli -p "my_playlist" -v
+    sbeats -p "my_playlist" -v
     ```
 
 * List all playlists:
 
     ```bash
-    shadow-beats-cli -l
+    sbeats -l
     ```
 
 * Update system playlists:
 
     ```bash
-    shadow-beats-cli -u
+    sbeats -u
     ```
 
 ## Contributing
