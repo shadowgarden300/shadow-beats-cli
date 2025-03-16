@@ -6,7 +6,7 @@ queue = []
 psudo_queue = []
 player = mpv.MPV()
 current_song={}
-
+CACHE_DIR="./"
 def play_song(query):
     """search and play the given song"""
     song = youtube.get_song(query)
